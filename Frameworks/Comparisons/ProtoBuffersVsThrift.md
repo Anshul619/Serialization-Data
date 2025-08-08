@@ -2,11 +2,11 @@
 # Protocol Buffers vs Thrift
 
 |                                     | [Protocol Buffers](../ProtocolBuffers.md) | [Thrift](../Thrift.md) |
-|-------------------------------------|---------------------------------------------------|--------------------------------|
-| RPC Interface                       | Yes                                               | Yes                            |
-| RPC Implementation                  | :x: No (used in gPRC)                             | Yes                            |
-| Documentation                       | :+1: Good docs                                    | Lack of docs                   |
-| Performance (serialization objects) | 30% slower than thrift                            | :rocket: Faster                |
+|-------------------------------------|-------------------------------------------|------------------------|
+| RPC Interface                       | Yes                                       | Yes                    |
+| RPC Implementation                  | :x: No (used in gPRC)                     | Yes                    |
+| Documentation                       | :+1: Good docs                            | Lack of docs           |
+| Performance (serialization objects) | 30% slower than thrift                    | :rocket: Faster        |
 
 # Read more
 - [Biggest differences of Thrift vs Protocol Buffers?](https://stackoverflow.com/questions/69316/biggest-differences-of-thrift-vs-protocol-buffers)
